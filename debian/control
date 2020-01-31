@@ -1,0 +1,12 @@
+Source: ros-turbulent-ros2test
+Section: misc
+Priority: extra
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-launch, ros-turbulent-launch-ros, ros-turbulent-launch-testing, ros-turbulent-launch-testing-ros, ros-turbulent-ros2cli, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ros2test
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-turbulent-domain-coordinator, ros-turbulent-launch, ros-turbulent-launch-ros, ros-turbulent-launch-testing, ros-turbulent-launch-testing-ros, ros-turbulent-ros2cli, ros-turbulent-ros-workspace
+Description: The test command for ROS 2 launch tests.
