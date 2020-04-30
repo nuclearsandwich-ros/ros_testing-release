@@ -1,0 +1,12 @@
+Source: ros-verystable-ros-testing
+Section: misc
+Priority: optional
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-cmake-core, ros-verystable-ament-cmake-export-dependencies, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ros-testing
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-launch-testing, ros-verystable-launch-testing-ament-cmake, ros-verystable-launch-testing-ros, ros-verystable-ros2test, ros-verystable-ros-workspace
+Description: The entry point package to launch testing in ROS.
