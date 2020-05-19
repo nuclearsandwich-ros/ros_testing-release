@@ -1,0 +1,12 @@
+Source: ros-testing-ros-testing
+Section: misc
+Priority: optional
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-core, ros-testing-ament-cmake-export-dependencies, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-ros-testing
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-launch-testing, ros-testing-launch-testing-ament-cmake, ros-testing-launch-testing-ros, ros-testing-ros2test, ros-testing-ros-workspace
+Description: The entry point package to launch testing in ROS.
